@@ -27,7 +27,7 @@ jobs:
       - name: 获取源
         run: |
           cd $GITHUB_WORKSPACE
-          python ./Caijijilinip.py
+          python ./CaijiJilinip.py
           
       - name: Install Dependencies
         run: |
@@ -38,7 +38,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           cat zubo.txt > zubo_bf.txt
-          bash ./Caijijilinip.sh
+          bash ./CaijiJilinip.sh
           cat txt/Jilin_dianxin.txt > zubo.txt
           
       - name: 更新源

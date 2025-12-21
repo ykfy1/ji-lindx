@@ -2,7 +2,7 @@ name: Caijijilinip
 
 on:
   schedule:
-    - cron: "01 21 * * *"
+    - cron: "02 20 * * *"
   workflow_dispatch:
 
 jobs:
